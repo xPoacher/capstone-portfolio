@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aizen | Capstone Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#0f172a', secondary: '#38bdf8', darkBg: '#020617' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-slate-300 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-primary border-b border-slate-700 fixed w-full z-10 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 text-white font-bold text-xl tracking-wider">
+                    AIZEN<span class="text-secondary">.</span>
+                </div>
+                <div class="hidden md:flex space-x-4">
+                    <a href="#profile" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium">Profile</a>
+                    <a href="#resumes" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resumes & Bio</a>
+                    <a href="#innovation" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium">Innovation</a>
+                    <a href="#culture-society" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium">Culture & Society</a>
+                    <a href="#socials" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium">Online Presence</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section id="profile" class="pt-32 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-800">
+        <div class="text-center md:text-left md:flex items-center justify-between">
+            <div class="md:w-2/3">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4">
+                    IGS 4202: Capstone <span class="text-secondary">Portfolio</span>
+                </h1>
+                <p class="text-lg text-slate-400 mb-6 leading-relaxed">
+                    BSc Information Technology, Dedan Kimathi University of Technology. This multimedia self-portrait encompasses an autobiographical assessment, technical innovation in agricultural logistics (AgriTrack), and comprehensive analyses of African culture and modern societal challenges.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Resumes & Autobiography -->
+    <section id="resumes" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-white mb-10 border-l-4 border-secondary pl-4">I. Professional Identity & Autobiography</h2>
+        
+        <!-- Resumes Previews Grid[cite: 1] -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+            <!-- English Resume Preview -->
+            <div class="bg-primary p-4 rounded-xl border border-slate-700 flex flex-col h-[500px]">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-sm font-bold text-white"><i class="fa-solid fa-file-pdf text-red-400 mr-2"></i> English Resume</h3>
+                    <a href="public/resumes/resume-english.pdf" target="_blank" class="text-xs bg-slate-800 hover:bg-slate-700 text-white px-3 py-1 rounded transition">Full Screen</a>
+                </div>
+                <object data="public/resumes/resume-english.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900 border border-slate-700">
+                    <div class="flex flex-col items-center justify-center h-full p-4 text-center">
+                        <i class="fa-solid fa-file-pdf text-4xl text-slate-600 mb-2"></i>
+                        <p class="text-sm text-slate-400">Preview not supported.</p>
+                        <a href="public/resumes/resume-english.pdf" class="mt-2 text-secondary hover:underline text-sm font-bold">Open Document</a>
+                    </div>
+                </object>
+            </div>
+
+            <!-- Kiswahili Resume Preview -->
+            <div class="bg-primary p-4 rounded-xl border border-slate-700 flex flex-col h-[500px]">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-sm font-bold text-white"><i class="fa-solid fa-file-pdf text-red-400 mr-2"></i> Kiswahili Resume</h3>
+                    <a href="public/resumes/resume-kiswahili.pdf" target="_blank" class="text-xs bg-slate-800 hover:bg-slate-700 text-white px-3 py-1 rounded transition">Full Screen</a>
+                </div>
+                <object data="public/resumes/resume-kiswahili.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900 border border-slate-700">
+                    <div class="flex flex-col items-center justify-center h-full p-4 text-center">
+                        <i class="fa-solid fa-file-pdf text-4xl text-slate-600 mb-2"></i>
+                        <p class="text-sm text-slate-400">Preview not supported.</p>
+                        <a href="public/resumes/resume-kiswahili.pdf" class="mt-2 text-secondary hover:underline text-sm font-bold">Open Document</a>
+                    </div>
+                </object>
+            </div>
+
+            <!-- Indigenous Resume Preview -->
+            <div class="bg-primary p-4 rounded-xl border border-slate-700 flex flex-col h-[500px]">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-sm font-bold text-white"><i class="fa-solid fa-file-pdf text-red-400 mr-2"></i> Indigenous Resume</h3>
+                    <a href="public/resumes/resume-indigenous.pdf" target="_blank" class="text-xs bg-slate-800 hover:bg-slate-700 text-white px-3 py-1 rounded transition">Full Screen</a>
+                </div>
+                <object data="public/resumes/resume-indigenous.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900 border border-slate-700">
+                    <div class="flex flex-col items-center justify-center h-full p-4 text-center">
+                        <i class="fa-solid fa-file-pdf text-4xl text-slate-600 mb-2"></i>
+                        <p class="text-sm text-slate-400">Preview not supported.</p>
+                        <a href="public/resumes/resume-indigenous.pdf" class="mt-2 text-secondary hover:underline text-sm font-bold">Open Document</a>
+                    </div>
+                </object>
+            </div>
+        </div>
+
+        <!-- Autobiography Grid[cite: 1] -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <!-- Essay Preview -->
+            <div class="bg-darkBg rounded-xl border border-slate-700 p-6 shadow-xl flex flex-col h-[600px]">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold text-white">Autobiographical Essay (20-30 Pages)</h3>
+                    <a href="public/essays/autobiographical-essay.pdf" target="_blank" class="text-sm bg-secondary text-darkBg font-bold px-3 py-1 rounded hover:bg-sky-400 transition">View Full PDF</a>
+                </div>
+                <object data="public/essays/autobiographical-essay.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900 border border-slate-700">
+                    <div class="flex flex-col items-center justify-center h-full text-center">
+                        <p class="text-slate-400 mb-2">Your browser blocks inline previews.</p>
+                        <a href="public/essays/autobiographical-essay.pdf" class="text-secondary hover:underline font-bold">Open Essay</a>
+                    </div>
+                </object>
+            </div>
+            
+            <!-- Presentation Preview -->
+            <div class="bg-darkBg rounded-xl border border-slate-700 p-6 shadow-xl flex flex-col h-[600px]">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold text-white">Autobiography Presentation</h3>
+                    <a href="public/presentations/autobiography-presentation.pdf" target="_blank" class="text-sm bg-secondary text-darkBg font-bold px-3 py-1 rounded hover:bg-sky-400 transition">View Full PDF</a>
+                </div>
+                <object data="public/presentations/autobiography-presentation.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900 border border-slate-700">
+                    <div class="flex flex-col items-center justify-center h-full text-center">
+                        <p class="text-slate-400 mb-2">Your browser blocks inline previews.</p>
+                        <a href="public/presentations/autobiography-presentation.pdf" class="text-secondary hover:underline font-bold">Open Slides</a>
+                    </div>
+                </object>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Invention / Innovation -->
+    <section id="innovation" class="py-16 bg-primary border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-10 border-l-4 border-secondary pl-4">II. IT Innovation: AgriTrack Architecture</h2>
+            
+            <!-- Innovation Documents[cite: 1] -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-8">
+                <!-- Video Player -->
+                <div class="bg-darkBg rounded-xl border border-slate-700 p-6 shadow-xl">
+                    <h3 class="text-xl font-bold text-white mb-4">20-Minute Innovation Video</h3>
+                    <video controls class="w-full rounded border border-slate-700 outline-none bg-black">
+                        <source src="public/videos/innovation-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <!-- Presentations & Abstracts Previews -->
+                <div class="space-y-6">
+                    <div class="bg-darkBg rounded-xl border border-slate-700 p-4 shadow-xl h-[280px] flex flex-col">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white">Innovation Presentation</h3>
+                            <a href="public/presentations/innovation-presentation.pdf" target="_blank" class="text-xs text-secondary hover:underline">Full Screen</a>
+                        </div>
+                        <object data="public/presentations/innovation-presentation.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900"></object>
+                    </div>
+                    
+                    <div class="bg-darkBg rounded-xl border border-slate-700 p-4 shadow-xl h-[280px] flex flex-col">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white">Trilingual Abstracts</h3>
+                            <a href="public/abstracts/innovation-abstracts.pdf" target="_blank" class="text-xs text-secondary hover:underline">Full Screen</a>
+                        </div>
+                        <object data="public/abstracts/innovation-abstracts.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900"></object>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Culture & Modern Society -->
+    <section id="culture-society" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-white mb-10 border-l-4 border-secondary pl-4">III. African Culture, Gender & Society</h2>
+        
+        <!-- African Culture Block[cite: 1] -->
+        <div class="bg-primary rounded-xl border border-slate-700 p-6 shadow-xl mb-10">
+            <h3 class="text-2xl font-bold text-white mb-4">African Culture & Gender Awareness</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-1">
+                    <h4 class="text-sm font-bold text-slate-300 mb-2">20-Minute Video</h4>
+                    <video controls class="w-full rounded border border-slate-700 outline-none bg-black h-48">
+                        <source src="public/videos/culture-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="h-56 flex flex-col">
+                    <div class="flex justify-between items-center mb-2">
+                        <h4 class="text-sm font-bold text-slate-300">Trilingual Abstracts</h4>
+                        <a href="public/abstracts/culture-abstracts.pdf" target="_blank" class="text-xs text-secondary hover:underline">Open</a>
+                    </div>
+                    <object data="public/abstracts/culture-abstracts.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900"></object>
+                </div>
+                <div class="h-56 flex flex-col">
+                    <div class="flex justify-between items-center mb-2">
+                        <h4 class="text-sm font-bold text-slate-300">Specialization Presentation</h4>
+                        <a href="public/presentations/culture-presentation.pdf" target="_blank" class="text-xs text-secondary hover:underline">Open</a>
+                    </div>
+                    <object data="public/presentations/culture-presentation.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900"></object>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modern Society Challenge Block[cite: 1] -->
+        <div class="bg-primary rounded-xl border border-slate-700 p-6 shadow-xl mb-10">
+            <h3 class="text-2xl font-bold text-white mb-4">Modern Society Challenges</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div>
+                    <h4 class="text-sm font-bold text-slate-300 mb-2">20-Minute Video</h4>
+                    <video controls class="w-full rounded border border-slate-700 outline-none bg-black h-[250px]">
+                        <source src="public/videos/society-challenge-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="h-[280px] flex flex-col">
+                    <div class="flex justify-between items-center mb-2">
+                        <h4 class="text-sm font-bold text-slate-300">Trilingual Abstracts</h4>
+                        <a href="public/abstracts/society-abstracts.pdf" target="_blank" class="text-xs text-secondary hover:underline">Full Screen</a>
+                    </div>
+                    <object data="public/abstracts/society-abstracts.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900"></object>
+                </div>
+            </div>
+        </div>
+
+        <!-- Photographic Essay Preview[cite: 1] -->
+        <div class="bg-darkBg rounded-xl border border-slate-700 p-6 shadow-xl flex flex-col h-[700px]">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold text-white"><i class="fa-solid fa-camera text-secondary mr-2"></i> Photographic Essay</h3>
+                <a href="public/essays/photographic-essay.pdf" target="_blank" class="text-sm bg-secondary text-darkBg font-bold px-4 py-2 rounded hover:bg-sky-400 transition">View Full Screen</a>
+            </div>
+            <object data="public/essays/photographic-essay.pdf" type="application/pdf" class="w-full flex-grow rounded bg-slate-900 border border-slate-700">
+                <div class="flex flex-col items-center justify-center h-full text-center">
+                    <p class="text-slate-400 mb-2">Your browser blocks inline previews.</p>
+                    <a href="public/essays/photographic-essay.pdf" class="text-secondary hover:underline font-bold">Download Photographic Essay</a>
+                </div>
+            </object>
+        </div>
+    </section>
+
+    <!-- Section 4: Professional Online Presence[cite: 1] -->
+    <section id="socials" class="py-16 bg-primary border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">IV. Professional Online Presence</h2>
+            <p class="text-slate-400 mb-10">Evidence of professionally relevant digital footprint across five platforms.</p>
+            
+            <div class="flex flex-wrap justify-center gap-6">
+                <!-- Replace "#" with your actual links -->
+                <a href="#" target="_blank" class="flex items-center bg-darkBg border border-slate-700 px-6 py-4 rounded-lg hover:border-secondary transition">
+                    <i class="fa-brands fa-linkedin text-3xl text-[#0077b5] mr-3"></i>
+                    <span class="font-bold">LinkedIn</span>
+                </a>
+                <a href="#" target="_blank" class="flex items-center bg-darkBg border border-slate-700 px-6 py-4 rounded-lg hover:border-secondary transition">
+                    <i class="fa-brands fa-github text-3xl text-white mr-3"></i>
+                    <span class="font-bold">Developer Blog</span>
+                </a>
+                <a href="#" target="_blank" class="flex items-center bg-darkBg border border-slate-700 px-6 py-4 rounded-lg hover:border-secondary transition">
+                    <i class="fa-brands fa-x-twitter text-3xl text-white mr-3"></i>
+                    <span class="font-bold">X (Twitter)</span>
+                </a>
+                <a href="#" target="_blank" class="flex items-center bg-darkBg border border-slate-700 px-6 py-4 rounded-lg hover:border-secondary transition">
+                    <i class="fa-brands fa-whatsapp text-3xl text-[#25D366] mr-3"></i>
+                    <span class="font-bold">WhatsApp Business</span>
+                </a>
+                <a href="#" target="_blank" class="flex items-center bg-darkBg border border-slate-700 px-6 py-4 rounded-lg hover:border-secondary transition">
+                    <i class="fa-brands fa-youtube text-3xl text-[#FF0000] mr-3"></i>
+                    <span class="font-bold">Vlog Channel</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-darkBg py-8 text-center border-t border-slate-800">
+        <p class="text-slate-500 text-sm">Capstone Project Documentation. All deliverables prepared by Aizen.</p>
+    </footer>
+</body>
+</html>
